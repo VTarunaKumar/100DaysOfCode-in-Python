@@ -50,7 +50,7 @@ if(size == "M"):
     
                                 """
 
-
+"""
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L ")
 add_pepperoni = input("Do you want pepperoni? Y or N ")
@@ -74,3 +74,31 @@ if(extra_cheese == "Y"):
     cost += 1
 print(f"Your final bill is: ${cost}")
 
+           """
+
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+nlower = (name1 + name2).lower()
+t = nlower.count("t")
+r = nlower.count("r")
+u = nlower.count("u")
+e = nlower.count("e")
+fCount = t+r+u+e
+l = nlower.count("l")
+o =nlower.count("o")
+v = nlower.count("v")
+e = nlower.count("e")
+sCount = l+o+v+e
+
+totalConNum = int(str(fCount)+str(sCount))
+if(totalConNum<10 or totalConNum>90):
+    print(f"Your score is {totalConNum},you go together like coke and mentos.")
+elif(totalConNum>=40 and totalConNum<=50):
+    print(f"Your score is {totalConNum},you are alright together.")
+else:
+    print(f"Your score is {totalConNum}")
