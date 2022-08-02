@@ -9,7 +9,6 @@ number=["0","1","2","3","4","5","6","7","8","9"]
 symbol=["!","@","#","$","%","^","&","*"]
 password=[]
 password1 =[]
-
 for x in range (1,number_alphabets+1):
     password.append(random.choice(alphabets))
 for y in range (1,number_num+1):
